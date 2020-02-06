@@ -20,8 +20,7 @@ app.use(bodyParser.json())
 
 
 app.get('/api/test', (req, res) => {
-    alert();
-    res.json(200);
+    res.json("test data");
 }); 
 
 
